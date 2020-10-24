@@ -52,3 +52,5 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
+export const routing: NgModule = RouterModule.forRoot(appRoutes, { useHash: true });
