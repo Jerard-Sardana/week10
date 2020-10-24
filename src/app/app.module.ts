@@ -24,7 +24,7 @@ const appRoutes: Routes = [
   { path: "deletemovie", component: DeletemovieComponent },
   { path: "listmovies", component: ListmoviesComponent },
   { path: "actortomovie", component: ActortomovieComponent },
-  { path: "deleteboth", component: DeletemovieComponent },
+  { path: "deleteboth", component: DeletebothComponent },
   { path: "", redirectTo: "/listactors", pathMatch: "full" },
   { path: "**", component: NotfoundComponent }
 ];
